@@ -6,7 +6,12 @@
     "homepage": "https://github.com/brennanfee/markdown-it-webpack-plugin#readme",
     "bugs": "https://github.com/brennanfee/markdown-it-webpack-plugin/issues",
     "author": "Brennan Fee <github@todaytechsoft.biz> (https://github.com/brennanfee)",
-    "keywords": [],
+    "keywords": [
+        "markdown",
+        "plugin",
+        "webpack"
+    ],
+    "main": "index.js",
     "devDependencies": {
         "eslint": "^4.19.1",
         "eslint-config-prettier": "^2.9.0",
@@ -16,8 +21,33 @@
         "stylelint": "^9.2.0",
         "stylelint-config-standard": "^18.2.0"
     },
-    "dependencies": {},
+    "dependencies": {
+        "markdown-it": "^8.4.1"
+    },
     "license": "Apache-2.0",
+    "eslintConfig": {
+        "env": {
+            "node": true,
+            "es6": true
+        },
+        "extends": [
+            "plugin:prettier/recommended"
+        ]
+    },
+    "prettier": {
+        "printWidth": 100,
+        "tabWidth": 4,
+        "useTabs": false,
+        "singleQuote": true,
+        "trailingComma": "es5",
+        "bracketSpacing": true,
+        "jsxBracketSameLine": false,
+        "arrowParens": "avoid",
+        "proseWrap": "always",
+        "requirePragma": false,
+        "insertPragma": false,
+        "semi": false
+    },
     "scripts": {
         "test": "echo 'Error: no tests specified' && exit 1"
     }
