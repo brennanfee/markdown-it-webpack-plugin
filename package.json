@@ -1,0 +1,24 @@
+{
+    "name": "markdown-it-webpack-plugin",
+    "version": "0.0.1",
+    "description": "Webpack plugin to emit Markdown files as html using markdown-it",
+    "repository": "github:brennanfee/markdown-it-webpack-plugin",
+    "homepage": "https://github.com/brennanfee/markdown-it-webpack-plugin#readme",
+    "bugs": "https://github.com/brennanfee/markdown-it-webpack-plugin/issues",
+    "author": "Brennan Fee <github@todaytechsoft.biz> (https://github.com/brennanfee)",
+    "keywords": [],
+    "devDependencies": {
+        "eslint": "^4.19.1",
+        "eslint-config-prettier": "^2.9.0",
+        "eslint-plugin-prettier": "^2.6.0",
+        "htmlhint": "^0.9.13",
+        "prettier": "^1.12.1",
+        "stylelint": "^9.2.0",
+        "stylelint-config-standard": "^18.2.0"
+    },
+    "dependencies": {},
+    "license": "Apache-2.0",
+    "scripts": {
+        "test": "echo 'Error: no tests specified' && exit 1"
+    }
+}
